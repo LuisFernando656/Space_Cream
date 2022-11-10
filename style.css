@@ -180,12 +180,14 @@ footer {
 }
 
 
-@media (min-width:750px) {
+@media (min-width:800px) {
  
   body::after,
   body::before {
     display: none;
   }
+
+
  
   .page {
     width: 100%;
@@ -227,7 +229,7 @@ footer {
   }
   
   main {
-    margin-left: 4rem;
+    padding: 0 4rem;
     grid-area: B;
   }
 
@@ -273,7 +275,6 @@ footer {
 
 
 @media (min-width: 1250px) {
-
   .page {
     height: 100vh;
     justify-content: center;
